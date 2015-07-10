@@ -16,7 +16,7 @@ An example of a Kdata JSON is:
 
 ```json
 {
-  "device" : "123abc321efg456efg2"
+  "device" : "123abc321efg456efg2",
   "timestamp": "2015-01-01T06:51:18.108Z",
   "dataId" : "PWRABS",
   "dataSubId" : "0001",
