@@ -1,0 +1,34 @@
+# Fields
+
+Field Name | Type | Description
+---|:---:|---
+device | `string` | **Required.** Device unique ID.
+timestamp | `string` |  **Required.** Timestamp of Kdata (in ISO 8601 format).
+dataId | `string` | **Required.** The value must be one of the managed dataIds
+dataSubId | `string` |  Additional custom ID of Kdata.
+command | `string` | **Required.** Kdata command. (INFO value only actually)
+value | `number` | **Required.** Value of Kdata.
+version | `string` | **Required.** Kdata version used (K0 actually).
+coordinates | `object` |  Actual coordinates of device sending Kdata.
+latitude | `number` |  Latitude of device sending Kdata.
+longitude | `number` |  Longitude of device sending Kdata.
+
+
+
+# JSON example
+
+```json
+{
+  "device" : "123abc321efg456efg2",
+  "timestamp": "2015-01-01T06:51:18.108Z",
+  "dataId" : "TEMPERATURE",
+  "dataSubId" : "INTERNAL",
+  "command" : "INFO",
+  "value" : 21,
+  "version" : "K0",
+  "coordinates" : {
+    "latitude" : 45.464161,
+    "longitude" : 9.190336
+    }
+ }
+```
