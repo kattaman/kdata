@@ -1,0 +1,4 @@
+DataId      | DataUnit     | Kdata compatibility | API compatibility | 
+----------- | ------------ | ------------------- | ----------------- | 
+PRWABS      |  W (Watt)    | K0                  | 1.0.0             |
+TEMPERATURE |  C (°Celsius)| K0                  | 1.0.0             |
