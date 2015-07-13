@@ -9,6 +9,9 @@ KattHub aims to create a uniform standard, both in API and format, to communicat
 
 The current version is K0
 
+### Why only x,y,z dataIds? We need more!
+Just ask, or contribute :)
+
 ### KData format
 The JSON Kdata format is:
 
@@ -93,3 +96,12 @@ $ curl -X GET -H "Content-Type: application/json" -H "X-Auth-Token:  12312312312
 HTTP/1.1 200 OK
 [WITH AUTH] Hey! It works!
 ```
+
+### The future?
+- More and more dataIds
+- Bidirectional communication
+- Alarms management (mail, sms etc)
+- Send commands between devices
+- Actions management (what to do in case of...? IFTTT-like)
+- Predictions (on measures, on actions)
+- Libraries 
