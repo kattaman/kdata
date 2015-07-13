@@ -3,11 +3,16 @@ Kdata is a JSON format and API used by KattHub to communicate measures and comma
 
 ## What is KattHub?
 
-KattHub ( https://www.katthub.com ) aims to create a uniform standard, both in API and format, to communicate measures and commands to and from smart devices. 
+[KattHub] (https://www.katthub.com) aims to create a uniform standard, both in API and format, to communicate measures and commands to and from smart devices.
+Try it with these credentials ( This account is reset once in a while )
+```
+user: demo@katthub.com
+pass: DemoDemo
+```
 
 ### Current version
 
-The current version is K0
+The current version is **K0**
 
 ### Why only x,y,z dataIds? We need more!
 Just ask, or contribute :)
@@ -86,7 +91,7 @@ with the fields:
 - Description: Longitude coordinates of device sending Kdata.
 
 ### API
-The API has version 1.0.0 version, it is compatible with Kdata R0 and the documentation can be found at http://www.katthub.com/doc/api.html .
+The API has version 1.0.0 version, it is compatible with Kdata R0 and the documentation can be found at [here] (https://www.katthub.com/doc/api.html) .
 It supports the methods: GET, POST, PUT, DELETE and needs the auth headers x-auth-id and x-auth-token
 
 An example of use is:
@@ -104,4 +109,4 @@ HTTP/1.1 200 OK
 - Send commands between devices
 - Actions management (what to do in case of...? IFTTT-like)
 - Predictions (on measures, on actions)
-- Libraries 
+- Libraries (ruby, js, .net ... )
