@@ -3,7 +3,7 @@ Kdata is a JSON format and API used by KattHub to communicate measures and comma
 
 ## What is KattHub?
 
-KattHub aims to create a uniform standard, both in API and format, to communicate measures and commands to and from smart devices. 
+KattHub ( https://www.katthub.com ) aims to create a uniform standard, both in API and format, to communicate measures and commands to and from smart devices. 
 
 ### Current version
 
