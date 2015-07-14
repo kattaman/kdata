@@ -103,10 +103,10 @@ HTTP/1.1 200 OK
 ```
 
 ### The future?
-- More and more dataIds
-- Bidirectional communication
-- Alarms management (mail, sms etc)
-- Send commands between devices
-- Actions management (what to do in case of...? IFTTT-like)
-- Predictions (on measures, on actions)
-- Libraries (ruby, js, .net ... )
+Kdata                           | KattHub                                                       | 
+------------------------------- | ------------------------------------------------------------- | 
+- More and more dataIds         | - Alarms management (mail, sms etc)                           | 
+- More commands (like ALARM...) | - Send commands between devices                               | 
+- Libraries (ruby, js, .net...) | - Actions management (what to do in case of...? IFTTT-like)   |
+                                | - Predictions (on measures, on actions)                       |
+
